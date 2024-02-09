@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 90%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 2fr);
+  box-shadow: 5px 5px 10px gray;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin-left: 20px;
+  font-family: "Protest Riot", sans-serif;
+}
+.box-8 p {
+    font-size: 1.6rem;
+
+}
+.box-0 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #53476c;
+  gap: 1rem;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.up {
+  color: #f28f70;
+  font-size: 20px;
+}
+.down {
+  color: white;
+  font-size: 30px;
+}
+.box-2 {
+  background-image: url(https://i.pinimg.com/736x/fc/bc/f5/fcbcf5fe8d218c31052405f666cf32e5.jpg);
+  background-size: cover;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.box-3 {
+  background-image: url(https://as1.ftcdn.net/v2/jpg/04/41/93/78/1000_F_441937883_HsnnLR2csstE5bBVWdrveZioeazuXNgv.jpg);
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.box-4 {
+  background-color: rgba(0, 0, 0, 0.736);
+}
+.box-5 {
+  background-color: #f28f70;
+}
+.box-6 {
+  background-color: #a05975;
+}
+.box-7 {
+  background-color: #53476c;
+}
+.box-8 {
+  grid-area: 4/1/5/3;
+}
+.box-9 {
+  background-color: #53476c;
+}
+.box-10 {
+  background-color: white;
+}
+.box-11 {
+  background-color: #f28f70;
+}
+.fa-people-line {
+    font-size: 2rem;
+}
+.fa-brush {
+  font-size: 4rem;
+  color: white;
+}
+.fa-helmet-safety {
+  font-size: 4rem;
+  color: rgba(0, 0, 0, 0.736);
+}
+.fa-building {
+  color: white;
+  font-size: 4rem;
+}
+.fa-cart-shopping {
+  color: white;
+  font-size: 4rem;
+}
+.fa-road-barrier {
+  color: white;
+  font-size: 4rem;
+}
+.fa-gear {
+  color: white;
+  font-size: 4rem;
+}
+.fa-screwdriver-wrench {
+  font-size: 4rem;
+  color: #f28f70;
+}
+.fa-house-chimney-user {
+  color: white;
+  font-size: 4rem;
+}
